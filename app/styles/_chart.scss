@@ -1,0 +1,64 @@
+.chart-container{
+  margin: 10px;
+  background-color: rgba(7,0,15,.92);
+  padding: 10px;
+  .header{
+    padding: 20px;
+    font-size: large;
+    letter-spacing: 2px;
+    .text-white {
+      font-weight: bolder;
+      color: white;
+    }
+  }
+}
+
+.c3-axis-x {
+  font-size: 10px;
+  font-weight: bolder;
+  fill: white !important;
+}
+
+.c3-chart-arc path {
+  stroke: none;
+}
+
+.c3-arc-data1 {
+  fill: rgba(31, 134, 180, 0.46);
+  fill-opacity: 0.3;
+}
+
+.c3-arc-data2 {
+  fill: rgba(28, 255, 10, 0.82) !important;
+  fill-opacity: 0.3;
+}
+
+.c3-chart-arcs-title {
+  fill: white;
+  font-size: 15px;
+}
+
+
+.c3-bar {
+  fill: url(#gradient) !important;
+}
+
+.c3-event-rects {
+  fill-opacity: 1 !important;
+}
+
+.c3-event-rect {
+  fill: rgba(66, 66, 66, 0.09) !important;;
+  width: 40px !important;
+  transform: translateX(9px);
+}
+
+.c3 path, .c3 line {
+  stroke: none !important;
+}
+
+.c3-axis-x, .c3-axis-y {
+  font-size: 10px;
+  font-weight: bolder;
+  fill: rgba(173, 173, 173, 0.86) !important;
+}
